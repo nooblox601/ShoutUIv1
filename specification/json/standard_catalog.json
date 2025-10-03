@@ -71,6 +71,18 @@
               "description": "A fixed, hardcoded string value."
             }
           }
+        },
+        "fit": {
+          "type": "string",
+          "enum": [
+            "fill",
+            "cover",
+            "contain",
+            "none",
+            "scale-down"
+          ],
+          "default": "fill",
+          "description": "How the image should be inscribed into the box.\n- fill: Does not preserve the aspect ratio. The image is resized to fill the container (the image will be stretched or squeezed to fit).\n- cover: Preserves the aspect ratio, and the image fills the container. Cuts overflowing content if needed.\n- contain: Preserves the aspect ratio, and fits the image inside the container, without cutting - leaves empty space if needed.\n- none: The image is not resized.\n- scale-down: The image is scaled down to the smallest version of none or contain."
         }
       },
       "required": [
