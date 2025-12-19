@@ -3,9 +3,11 @@
 **ShoutUI** is an open-source project that defines a declarative format for agent-generated user interfaces, along with renderers that allow agents to generate, update, and control rich UIs safely across platforms.
 
 ShoutUI enables agents to “speak UI” using structured data instead of executable code.
-
 ---
-
+---> **Note**  
+> This is an interface service inspired by A2UI.  
+> Please, **do not fork** this project.
+---
 ## ⚠️ Status: Early Stage Public Preview
 
 > **Version:** v0.8  
@@ -137,9 +139,6 @@ Contributions are welcome:
 See `CONTRIBUTING.md` for details.
 
 ---
-## Note
-this an inspired ui sevice on A2UI
-please don't fork this
 
 ### 📄 License
 
