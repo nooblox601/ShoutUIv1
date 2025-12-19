@@ -137,8 +137,11 @@ Contributions are welcome:
 See `CONTRIBUTING.md` for details.
 
 ---
+## Note
+this an inspired ui sevice on A2UI
+please don't fork this
 
-## 📄 License
+### 📄 License
 
 Apache License 2.0  
 See `LICENSE` for more information.
